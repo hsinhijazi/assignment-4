@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Styling and Units Assignment</title>
+  <style>
+    body {
+      background-color: #f0f2f5;
+      font-family: serif;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+    }
+
+    /* Box Styling */
+    .box {
+      padding: 15px;
+      margin-bottom: 25px;
+      box-sizing: border-box;
+    }
+
+    .box-px {
+      width: 300px;
+      height: 150px;
+      background-color: #ffd4d4; /* Light Red / Pink */
+    }
+
+    .box-percent {
+      width: 50%;
+      height: 100px;
+      background-color: #d1ffd1; /* Light Green */
+      margin-left: auto;
+      margin-right: auto; /* Offset position matching image */
+    }
+
+    .box-viewport {
+      width: 40vw;
+      height: 20vh;
+      background-color: #d0e4ff; /* Light Blue */
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 40px 0 20px 0;
+    }
+
+    /* Text Styling */
+    .underline-text {
+      color: #d9534f;
+      text-decoration: underline;
+    }
+
+    .overline-text {
+      color: #e0a96d;
+      text-decoration: overline;
+    }
+
+    .word-spacing-text {
+      color: #5cb85c;
+      word-spacing: 10px;
+    }
+
+    .letter-spacing-text {
+      color: #337ab7;
+      letter-spacing: 5px;
+    }
+
+    .indent-text {
+      color: #6b5b95;
+      text-indent: 30px;
+    }
+
+    .uppercase-text {
+      color: #d9538f;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Styling and Units Assignment</h1>
+
+  <!-- Box 1 -->
+  <div class="box box-px">
+    This box uses width: 300px and height: 150px
+  </div>
+
+  <!-- Box 2 -->
+  <div class="box box-percent">
+    This box uses width: 50% and height: 100px
+  </div>
+
+  <!-- Box 3 -->
+  <div class="box box-viewport">
+    This box uses width: 40vw and height: 20vh
+  </div>
+
+  <hr>
+
+  <!-- Text Properties -->
+  <p class="underline-text">This p is an underlined text</p>
+
+  <p class="overline-text">This p is an overlined text</p>
+
+  <p class="word-spacing-text">The space between each word is 10px</p>
+
+  <p class="letter-spacing-text">The space between each letter is 5px</p>
+
+  <p class="indent-text">This text has a 30px indent at the beginning</p>
+
+  <p class="uppercase-text">This text is transformed to uppercase</p>
+
+</body>
+</html>
 
